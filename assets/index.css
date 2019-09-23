@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Objektiv";
+    src: url("./Playfair.ttf");
+}
+
+body{
+    font-family: 'Objektiv';
+    background-color: #F0EDED;
+     font-weight: 400;
+    background: #F0EDED;
+    line-height: 1.4;
+}
+
+h1{
+    font-size: 9vw;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+ 
+.social a {
+    margin-right: 0.6em;
+}
+a {
+    color: black;
+    position: relative;
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:visited, a,a:hover, a:active, a:link{
+    color:black
+}
+
+ 
+main {
+    margin: 30px;
+    margin: 10vh 10vw;
+    max-width: 600px;
+} 
+p {
+    display: block;
+    margin-bottom: 1em;
+}
